@@ -4,6 +4,10 @@ import pandas as pd
 
 class chartink():
   def __init__(self , condition):
+    '''
+    pass condition in init from payload in dictionary format
+    {'scan_clause':'sample payload enter here'}
+    '''
     self.condition = condition
   def stock_screener(self):
 
